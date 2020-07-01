@@ -1,6 +1,6 @@
 import { GraphQLSchema } from 'graphql';
 
-import { Transform, Request, FieldNodeMappers } from '@graphql-tools/utils';
+import { Transform, Request, FieldNodeMappers, ExecutionResult } from '@graphql-tools/utils';
 
 import TransformCompositeFields from './TransformCompositeFields';
 
